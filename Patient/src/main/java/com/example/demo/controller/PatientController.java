@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PatientController {
 
-	@GetMapping("/patient")
+	@GetMapping("/pati")
 	public String patient() {
 		return "hie these is a patient application";
 	}
